@@ -38,10 +38,14 @@ class ProductDataService: DataServiceProtocol {
 
 class MockDataService: DataServiceProtocol {
     
-    let testData: [PostsModel] = [
-    PostsModel(userId: 1, id: 1, title: "One", body: "one"),
-    PostsModel(userId: 2, id: 2, title: "Two", body: "two")
-    ]
+    let testData: [PostsModel]
+    
+    init(data: [PostsModel]?) {
+        self.testData = data ?? [
+            PostsModel(userId: 1, id: 1, title: "One", body: "one"),
+            PostsModel(userId: 2, id: 2, title: "Two", body: "two")
+        ]
+    }
     
     func getData() -> AnyPublisher<[PostsModel], Error> {
         Just(testData)
@@ -56,9 +60,9 @@ class DependecyInjecViewModel: ObservableObject {
     
     @Published var dataArray: [PostsModel] = []
     var cancel = Set<AnyCancellable>()
-    let dataService: ProductDataService
+    let dataService: DataServiceProtocol
     
-    init(dataService: ProductDataService){
+    init(dataService: DataServiceProtocol){
         self.dataService = dataService
         loadPosts()
     }
@@ -76,7 +80,7 @@ class DependecyInjecViewModel: ObservableObject {
 struct DependecyInjecBootcamp: View {
     
     @StateObject private var vm: DependecyInjecViewModel
-    init(dataService: ProductDataService){
+    init(dataService: DataServiceProtocol){
         _vm = StateObject(wrappedValue: DependecyInjecViewModel(dataService: dataService))
     }
     
@@ -92,8 +96,7 @@ struct DependecyInjecBootcamp: View {
 }
 
 struct DependecyInjecBootcamp_Previews: PreviewProvider {
-//    static let dataService = ProductDataService(url: URL(string: "https://jsonplaceholder.typicode.com/posts")!)
-    static let dataService = MockDataService()
+    static let dataService = MockDataService(data: nil)
     static var previews: some View {
         DependecyInjecBootcamp(dataService: dataService)
     }
