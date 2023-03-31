@@ -16,6 +16,8 @@
 		927F328E29D5A4FA00984617 /* TextSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F328D29D5A4FA00984617 /* TextSUITests.swift */; };
 		927F329829D5A4FA00984617 /* TextSUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F329729D5A4FA00984617 /* TextSUIUITests.swift */; };
 		927F329A29D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F329929D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift */; };
+		92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB629D6B038004DFAB9 /* DependecyInjecBootcamp.swift */; };
+		92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */; };
 		92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */; };
 		92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */; };
 		92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */; };
@@ -51,6 +53,8 @@
 		927F329329D5A4FA00984617 /* TextSUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextSUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		927F329729D5A4FA00984617 /* TextSUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSUIUITests.swift; sourceTree = "<group>"; };
 		927F329929D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		92B41EB629D6B038004DFAB9 /* DependecyInjecBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependecyInjecBootcamp.swift; sourceTree = "<group>"; };
+		92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -102,8 +106,9 @@
 		927F327629D5A4F800984617 /* TextSUI */ = {
 			isa = PBXGroup;
 			children = (
-				92FAC01129D5B836005D6E8D /* New Group */,
 				92FAC01029D5B82B005D6E8D /* View */,
+				92B41EB529D6B014004DFAB9 /* View2 */,
+				92FAC01129D5B836005D6E8D /* New Group */,
 				927F327D29D5A4FA00984617 /* Preview Content */,
 			);
 			path = TextSUI;
@@ -132,6 +137,15 @@
 				927F329929D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift */,
 			);
 			path = TextSUIUITests;
+			sourceTree = "<group>";
+		};
+		92B41EB529D6B014004DFAB9 /* View2 */ = {
+			isa = PBXGroup;
+			children = (
+				92B41EB629D6B038004DFAB9 /* DependecyInjecBootcamp.swift */,
+				92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */,
+			);
+			path = View2;
 			sourceTree = "<group>";
 		};
 		92FAC01029D5B82B005D6E8D /* View */ = {
@@ -290,8 +304,10 @@
 			files = (
 				92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */,
 				927F328129D5A4FA00984617 /* Persistence.swift in Sources */,
+				92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */,
 				927F327A29D5A4F800984617 /* ContentView.swift in Sources */,
 				927F328429D5A4FA00984617 /* TextSUI.xcdatamodeld in Sources */,
+				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
 				92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */,
 				927F327829D5A4F800984617 /* TextSUIApp.swift in Sources */,
