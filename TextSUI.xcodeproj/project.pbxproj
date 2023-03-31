@@ -18,6 +18,7 @@
 		927F329A29D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F329929D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift */; };
 		92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB629D6B038004DFAB9 /* DependecyInjecBootcamp.swift */; };
 		92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */; };
+		92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */; };
 		92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */; };
 		92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */; };
 		92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */; };
@@ -55,6 +56,7 @@
 		927F329929D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		92B41EB629D6B038004DFAB9 /* DependecyInjecBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependecyInjecBootcamp.swift; sourceTree = "<group>"; };
 		92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
+		92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturessPromisesBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				92B41EB629D6B038004DFAB9 /* DependecyInjecBootcamp.swift */,
 				92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */,
+				92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */,
 			);
 			path = View2;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				927F328429D5A4FA00984617 /* TextSUI.xcdatamodeld in Sources */,
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
+				92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */,
 				92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */,
 				927F327829D5A4F800984617 /* TextSUIApp.swift in Sources */,
 			);
