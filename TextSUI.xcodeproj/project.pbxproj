@@ -23,6 +23,7 @@
 		92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */; };
 		92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */; };
 		92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */; };
+		92FAD2CD29DF4A3200B6CCDD /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAD2CC29DF4A3200B6CCDD /* HashableBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
+		92FAD2CC29DF4A3200B6CCDD /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */,
 				92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */,
 				92B41EFC29D716B9004DFAB9 /* EscapingBootcamp.swift */,
+				92FAD2CC29DF4A3200B6CCDD /* HashableBootcamp.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */,
 				927F327A29D5A4F800984617 /* ContentView.swift in Sources */,
 				927F328429D5A4FA00984617 /* TextSUI.xcdatamodeld in Sources */,
+				92FAD2CD29DF4A3200B6CCDD /* HashableBootcamp.swift in Sources */,
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
 				92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */,
