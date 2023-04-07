@@ -13,7 +13,7 @@ struct TextSUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PushBootcamp()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

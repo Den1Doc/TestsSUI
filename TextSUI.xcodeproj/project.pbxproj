@@ -20,6 +20,11 @@
 		92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */; };
 		92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */; };
 		92B41EFD29D716B9004DFAB9 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EFC29D716B9004DFAB9 /* EscapingBootcamp.swift */; };
+		92EFAE0A29E0A8FE00886832 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EFAE0929E0A8FE00886832 /* SoundsBootcamp.swift */; };
+		92EFAE0E29E0AC1200886832 /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92EFAE0C29E0AC1200886832 /* badum.mp3 */; };
+		92EFAE0F29E0AC1200886832 /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 92EFAE0D29E0AC1200886832 /* tada.mp3 */; };
+		92EFAE1129E0ADD200886832 /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EFAE1029E0ADD200886832 /* HapticsBootcamp.swift */; };
+		92EFAE1329E0AFD000886832 /* PushBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EFAE1229E0AFD000886832 /* PushBootcamp.swift */; };
 		92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */; };
 		92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */; };
 		92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */; };
@@ -60,6 +65,11 @@
 		92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturessPromisesBootcamp.swift; sourceTree = "<group>"; };
 		92B41EFC29D716B9004DFAB9 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
+		92EFAE0929E0A8FE00886832 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
+		92EFAE0C29E0AC1200886832 /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		92EFAE0D29E0AC1200886832 /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
+		92EFAE1029E0ADD200886832 /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		92EFAE1229E0AFD000886832 /* PushBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -155,6 +165,16 @@
 			path = View2;
 			sourceTree = "<group>";
 		};
+		92EFAE0B29E0ABF500886832 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				92EFAE0929E0A8FE00886832 /* SoundsBootcamp.swift */,
+				92EFAE0C29E0AC1200886832 /* badum.mp3 */,
+				92EFAE0D29E0AC1200886832 /* tada.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		92FAC01029D5B82B005D6E8D /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +183,9 @@
 				92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */,
 				92B41EFC29D716B9004DFAB9 /* EscapingBootcamp.swift */,
 				92FAD2CC29DF4A3200B6CCDD /* HashableBootcamp.swift */,
+				92EFAE1029E0ADD200886832 /* HapticsBootcamp.swift */,
+				92EFAE1229E0AFD000886832 /* PushBootcamp.swift */,
+				92EFAE0B29E0ABF500886832 /* Sound */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,6 +308,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EFAE0F29E0AC1200886832 /* tada.mp3 in Resources */,
+				92EFAE0E29E0AC1200886832 /* badum.mp3 in Resources */,
 				927F327F29D5A4FA00984617 /* Preview Assets.xcassets in Resources */,
 				927F327C29D5A4FA00984617 /* Assets.xcassets in Resources */,
 			);
@@ -312,8 +337,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */,
+				92EFAE1129E0ADD200886832 /* HapticsBootcamp.swift in Sources */,
 				92B41EFD29D716B9004DFAB9 /* EscapingBootcamp.swift in Sources */,
 				927F328129D5A4FA00984617 /* Persistence.swift in Sources */,
+				92EFAE0A29E0A8FE00886832 /* SoundsBootcamp.swift in Sources */,
 				92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */,
 				927F327A29D5A4F800984617 /* ContentView.swift in Sources */,
 				927F328429D5A4FA00984617 /* TextSUI.xcdatamodeld in Sources */,
@@ -321,6 +348,7 @@
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
 				92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */,
+				92EFAE1329E0AFD000886832 /* PushBootcamp.swift in Sources */,
 				92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */,
 				927F327829D5A4F800984617 /* TextSUIApp.swift in Sources */,
 			);
