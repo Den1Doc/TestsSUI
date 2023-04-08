@@ -42,6 +42,6 @@ struct ProtocolsBootcamp: View {
 
 struct ProtocolsBootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        ProtocolsBootcamp(col: ColorOne())
+        ProtocolsBootcamp(col: ColorTwo())
     }
 }
