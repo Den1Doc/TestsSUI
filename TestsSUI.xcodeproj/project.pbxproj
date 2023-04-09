@@ -17,6 +17,7 @@
 		927F329829D5A4FA00984617 /* TextSUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F329729D5A4FA00984617 /* TextSUIUITests.swift */; };
 		927F329A29D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927F329929D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift */; };
 		928B382E29E1DE9C00473B8D /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B382D29E1DE9C00473B8D /* ArraysBootcamp.swift */; };
+		928B385229E29A8100473B8D /* ThreadsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928B385129E29A8100473B8D /* ThreadsBootcamp.swift */; };
 		92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB629D6B038004DFAB9 /* DependecyInjecBootcamp.swift */; };
 		92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */; };
 		92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */; };
@@ -67,6 +68,7 @@
 		927F329729D5A4FA00984617 /* TextSUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSUIUITests.swift; sourceTree = "<group>"; };
 		927F329929D5A4FA00984617 /* TextSUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		928B382D29E1DE9C00473B8D /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
+		928B385129E29A8100473B8D /* ThreadsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsBootcamp.swift; sourceTree = "<group>"; };
 		92B41EB629D6B038004DFAB9 /* DependecyInjecBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependecyInjecBootcamp.swift; sourceTree = "<group>"; };
 		92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturessPromisesBootcamp.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				92EFAE1929E13D5900886832 /* TypeliastBootcamp.swift */,
 				92EFAE1B29E13F6600886832 /* WeakSelfBootcamp.swift */,
 				928B382D29E1DE9C00473B8D /* ArraysBootcamp.swift */,
+				928B385129E29A8100473B8D /* ThreadsBootcamp.swift */,
 				92EFAE2129E14AB600886832 /* DragGesture */,
 				92EFAE0B29E0ABF500886832 /* Sound */,
 			);
@@ -363,6 +366,7 @@
 				92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */,
 				928B382E29E1DE9C00473B8D /* ArraysBootcamp.swift in Sources */,
 				92EFAE1129E0ADD200886832 /* HapticsBootcamp.swift in Sources */,
+				928B385229E29A8100473B8D /* ThreadsBootcamp.swift in Sources */,
 				92EFAE2029E14AAA00886832 /* DragGestureBootcamp2.swift in Sources */,
 				92B41EFD29D716B9004DFAB9 /* EscapingBootcamp.swift in Sources */,
 				927F328129D5A4FA00984617 /* Persistence.swift in Sources */,
