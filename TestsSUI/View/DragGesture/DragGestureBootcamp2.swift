@@ -1,10 +1,3 @@
-//
-//  DragGestureBootcamp2.swift
-//  TestsSUI
-//
-//  Created by Денис Мишин on 08.04.2023.
-//
-
 import SwiftUI
 
 struct DragGestureBootcamp2: View {
@@ -35,7 +28,7 @@ struct DragGestureBootcamp2: View {
                                 if currentOffsetY < -150 {
                                     endOffsetY = -startOffsetY
                                 } else if endOffsetY != 0  && currentOffsetY > 150 {
-                                 endOffsetY = 0
+                                 endOffsetY = 30
                                 }
                                 currentOffsetY = 0
                                 
