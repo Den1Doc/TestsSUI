@@ -47,6 +47,15 @@
 		92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */; };
 		92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */; };
 		92FAD2CD29DF4A3200B6CCDD /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAD2CC29DF4A3200B6CCDD /* HashableBootcamp.swift */; };
+		92FB754E29EFB0E9007B40CB /* ControlGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB754D29EFB0E9007B40CB /* ControlGroupView.swift */; };
+		92FB755029EFB30E007B40CB /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB754F29EFB30E007B40CB /* DatePickerView.swift */; };
+		92FB755229EFB5CF007B40CB /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB755129EFB5CF007B40CB /* DisclosureGroupView.swift */; };
+		92FB755429EFB74E007B40CB /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB755329EFB74E007B40CB /* FormView.swift */; };
+		92FB755629EFBBE4007B40CB /* GroupBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB755529EFBBE4007B40CB /* GroupBoxView.swift */; };
+		92FB755829EFBCD6007B40CB /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB755729EFBCD6007B40CB /* LabelView.swift */; };
+		92FB755A29EFBDAE007B40CB /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB755929EFBDAE007B40CB /* LinkView.swift */; };
+		92FB755C29EFBEAE007B40CB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB755B29EFBEAE007B40CB /* ListView.swift */; };
+		92FB755E29EFBFF6007B40CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FB755D29EFBFF6007B40CB /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +119,15 @@
 		92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAD2CC29DF4A3200B6CCDD /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		92FB754D29EFB0E9007B40CB /* ControlGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupView.swift; sourceTree = "<group>"; };
+		92FB754F29EFB30E007B40CB /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		92FB755129EFB5CF007B40CB /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
+		92FB755329EFB74E007B40CB /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		92FB755529EFBBE4007B40CB /* GroupBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBoxView.swift; sourceTree = "<group>"; };
+		92FB755729EFBCD6007B40CB /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		92FB755929EFBDAE007B40CB /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		92FB755B29EFBEAE007B40CB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		92FB755D29EFBFF6007B40CB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +259,7 @@
 		927F327629D5A4F800984617 /* TestsSUI */ = {
 			isa = PBXGroup;
 			children = (
+				92FB754C29EFB0AA007B40CB /* ViewBookSuiMaster */,
 				92FAC01029D5B82B005D6E8D /* View */,
 				92FAC01129D5B836005D6E8D /* New Group */,
 				927F327D29D5A4FA00984617 /* Preview Content */,
@@ -328,6 +347,22 @@
 				927F328229D5A4FA00984617 /* TextSUI.xcdatamodeld */,
 			);
 			path = "New Group";
+			sourceTree = "<group>";
+		};
+		92FB754C29EFB0AA007B40CB /* ViewBookSuiMaster */ = {
+			isa = PBXGroup;
+			children = (
+				92FB754D29EFB0E9007B40CB /* ControlGroupView.swift */,
+				92FB754F29EFB30E007B40CB /* DatePickerView.swift */,
+				92FB755129EFB5CF007B40CB /* DisclosureGroupView.swift */,
+				92FB755329EFB74E007B40CB /* FormView.swift */,
+				92FB755529EFBBE4007B40CB /* GroupBoxView.swift */,
+				92FB755729EFBCD6007B40CB /* LabelView.swift */,
+				92FB755929EFBDAE007B40CB /* LinkView.swift */,
+				92FB755B29EFBEAE007B40CB /* ListView.swift */,
+				92FB755D29EFBFF6007B40CB /* MenuView.swift */,
+			);
+			path = ViewBookSuiMaster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,6 +505,7 @@
 				9260A6A529EC805B00B31971 /* DowloadingImagesViewModel.swift in Sources */,
 				928B385229E29A8100473B8D /* ThreadsBootcamp.swift in Sources */,
 				9260A6A929EC8C9000B31971 /* DowloadingImageRow.swift in Sources */,
+				92FB755629EFBBE4007B40CB /* GroupBoxView.swift in Sources */,
 				92EFAE2029E14AAA00886832 /* DragGestureBootcamp2.swift in Sources */,
 				9260A6B129EC989D00B31971 /* PhotoModelFileManager.swift in Sources */,
 				92B41EFD29D716B9004DFAB9 /* EscapingBootcamp.swift in Sources */,
@@ -477,21 +513,29 @@
 				927F328129D5A4FA00984617 /* Persistence.swift in Sources */,
 				9260A69629EC3A8000B31971 /* FileManagerBootcamp.swift in Sources */,
 				92EFAE0A29E0A8FE00886832 /* SoundsBootcamp.swift in Sources */,
+				92FB754E29EFB0E9007B40CB /* ControlGroupView.swift in Sources */,
 				92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */,
+				92FB755229EFB5CF007B40CB /* DisclosureGroupView.swift in Sources */,
 				92EFAE1A29E13D5900886832 /* TypeliastBootcamp.swift in Sources */,
 				927F327A29D5A4F800984617 /* ContentView.swift in Sources */,
 				9260A6AB29EC8D3300B31971 /* DowloadingImageView.swift in Sources */,
+				92FB755429EFB74E007B40CB /* FormView.swift in Sources */,
 				927F328429D5A4FA00984617 /* TextSUI.xcdatamodeld in Sources */,
 				9260A6AF29EC96DF00B31971 /* PhotoCacheManager.swift in Sources */,
 				9260A69929EC596E00B31971 /* SubscriberBootcamp.swift in Sources */,
 				92EFAE1C29E13F6600886832 /* WeakSelfBootcamp.swift in Sources */,
+				92FB755029EFB30E007B40CB /* DatePickerView.swift in Sources */,
 				92FAD2CD29DF4A3200B6CCDD /* HashableBootcamp.swift in Sources */,
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
+				92FB755E29EFBFF6007B40CB /* MenuView.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
 				92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */,
 				9260A6A129EC7EA700B31971 /* DowloadingImagesBootcamp.swift in Sources */,
 				92EFAE1329E0AFD000886832 /* PushBootcamp.swift in Sources */,
+				92FB755A29EFBDAE007B40CB /* LinkView.swift in Sources */,
 				9260A6A729EC818200B31971 /* PhotoModelDataService.swift in Sources */,
+				92FB755C29EFBEAE007B40CB /* ListView.swift in Sources */,
+				92FB755829EFBCD6007B40CB /* LabelView.swift in Sources */,
 				92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */,
 				9260A6A329EC7FC500B31971 /* PhotoModel.swift in Sources */,
 				927F327829D5A4F800984617 /* TextSUIApp.swift in Sources */,
