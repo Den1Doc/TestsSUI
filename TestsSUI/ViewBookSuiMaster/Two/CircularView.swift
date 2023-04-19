@@ -9,7 +9,17 @@ import SwiftUI
 
 struct CircularView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack(spacing: 5.0) {
+            Circle()
+                .padding()
+            Capsule()
+                .padding()
+            Ellipse()
+                .padding()
+        }
+        
+        
     }
 }
 

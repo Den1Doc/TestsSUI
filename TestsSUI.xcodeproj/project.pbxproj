@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920CC8DF29F01E84001BB34F /* InsetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8DE29F01E84001BB34F /* InsetView.swift */; };
+		920CC8E229F01F54001BB34F /* AngulargradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8E129F01F54001BB34F /* AngulargradientView.swift */; };
+		920CC8E529F02579001BB34F /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8E429F02579001BB34F /* ActionSheetView.swift */; };
+		920CC8E729F0288B001BB34F /* SafeArenaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8E629F0288B001BB34F /* SafeArenaView.swift */; };
+		920CC8E929F029FD001BB34F /* Brightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8E829F029FD001BB34F /* Brightness.swift */; };
+		920CC8EB29F02A8B001BB34F /* CompositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8EA29F02A8B001BB34F /* CompositionView.swift */; };
+		920CC8ED29F02CA7001BB34F /* DrawingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8EC29F02CA7001BB34F /* DrawingGroupView.swift */; };
+		920CC8EF29F0310C001BB34F /* HueRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8EE29F0310C001BB34F /* HueRotationView.swift */; };
+		920CC8F129F03277001BB34F /* SaturationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8F029F03277001BB34F /* SaturationView.swift */; };
 		9260A69629EC3A8000B31971 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260A69529EC3A8000B31971 /* FileManagerBootcamp.swift */; };
 		9260A69929EC596E00B31971 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260A69829EC596E00B31971 /* SubscriberBootcamp.swift */; };
 		9260A6A129EC7EA700B31971 /* DowloadingImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260A6A029EC7EA700B31971 /* DowloadingImagesBootcamp.swift */; };
@@ -82,6 +91,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		920CC8DE29F01E84001BB34F /* InsetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetView.swift; sourceTree = "<group>"; };
+		920CC8E129F01F54001BB34F /* AngulargradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngulargradientView.swift; sourceTree = "<group>"; };
+		920CC8E429F02579001BB34F /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		920CC8E629F0288B001BB34F /* SafeArenaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeArenaView.swift; sourceTree = "<group>"; };
+		920CC8E829F029FD001BB34F /* Brightness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brightness.swift; sourceTree = "<group>"; };
+		920CC8EA29F02A8B001BB34F /* CompositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionView.swift; sourceTree = "<group>"; };
+		920CC8EC29F02CA7001BB34F /* DrawingGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingGroupView.swift; sourceTree = "<group>"; };
+		920CC8EE29F0310C001BB34F /* HueRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationView.swift; sourceTree = "<group>"; };
+		920CC8F029F03277001BB34F /* SaturationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationView.swift; sourceTree = "<group>"; };
 		9260A69529EC3A8000B31971 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		9260A69829EC596E00B31971 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		9260A6A029EC7EA700B31971 /* DowloadingImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowloadingImagesBootcamp.swift; sourceTree = "<group>"; };
@@ -167,6 +185,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		920CC8E029F01F3B001BB34F /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				920CC8E129F01F54001BB34F /* AngulargradientView.swift */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		920CC8E329F02560001BB34F /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				920CC8E429F02579001BB34F /* ActionSheetView.swift */,
+				920CC8E629F0288B001BB34F /* SafeArenaView.swift */,
+				920CC8E829F029FD001BB34F /* Brightness.swift */,
+				920CC8EA29F02A8B001BB34F /* CompositionView.swift */,
+				920CC8EC29F02CA7001BB34F /* DrawingGroupView.swift */,
+				920CC8EE29F0310C001BB34F /* HueRotationView.swift */,
+				920CC8F029F03277001BB34F /* SaturationView.swift */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
 		9260A69429EC106D00B31971 /* FileManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +379,7 @@
 			children = (
 				92D8879029EFDE91003A6070 /* CanvasView.swift */,
 				92D8879229EFE033003A6070 /* CircularView.swift */,
+				920CC8DE29F01E84001BB34F /* InsetView.swift */,
 			);
 			path = Two;
 			sourceTree = "<group>";
@@ -393,6 +434,8 @@
 		92FB754C29EFB0AA007B40CB /* ViewBookSuiMaster */ = {
 			isa = PBXGroup;
 			children = (
+				920CC8E329F02560001BB34F /* Four */,
+				920CC8E029F01F3B001BB34F /* Three */,
 				92D8878F29EFDE81003A6070 /* Two */,
 				92D8878E29EFDE5D003A6070 /* One */,
 			);
@@ -553,16 +596,21 @@
 				92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */,
 				92FB755229EFB5CF007B40CB /* DisclosureGroupView.swift in Sources */,
 				92EFAE1A29E13D5900886832 /* TypeliastBootcamp.swift in Sources */,
+				920CC8E529F02579001BB34F /* ActionSheetView.swift in Sources */,
 				927F327A29D5A4F800984617 /* ContentView.swift in Sources */,
 				9260A6AB29EC8D3300B31971 /* DowloadingImageView.swift in Sources */,
+				920CC8F129F03277001BB34F /* SaturationView.swift in Sources */,
 				92FB755429EFB74E007B40CB /* FormView.swift in Sources */,
+				920CC8E929F029FD001BB34F /* Brightness.swift in Sources */,
 				927F328429D5A4FA00984617 /* TextSUI.xcdatamodeld in Sources */,
 				9260A6AF29EC96DF00B31971 /* PhotoCacheManager.swift in Sources */,
 				9260A69929EC596E00B31971 /* SubscriberBootcamp.swift in Sources */,
 				92EFAE1C29E13F6600886832 /* WeakSelfBootcamp.swift in Sources */,
 				92FB755029EFB30E007B40CB /* DatePickerView.swift in Sources */,
+				920CC8E729F0288B001BB34F /* SafeArenaView.swift in Sources */,
 				92FAD2CD29DF4A3200B6CCDD /* HashableBootcamp.swift in Sources */,
 				92D8879129EFDE91003A6070 /* CanvasView.swift in Sources */,
+				920CC8DF29F01E84001BB34F /* InsetView.swift in Sources */,
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
 				92FB755E29EFBFF6007B40CB /* MenuView.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
@@ -572,9 +620,13 @@
 				92EFAE1329E0AFD000886832 /* PushBootcamp.swift in Sources */,
 				92FB755A29EFBDAE007B40CB /* LinkView.swift in Sources */,
 				9260A6A729EC818200B31971 /* PhotoModelDataService.swift in Sources */,
+				920CC8EF29F0310C001BB34F /* HueRotationView.swift in Sources */,
 				92FB755C29EFBEAE007B40CB /* ListView.swift in Sources */,
+				920CC8ED29F02CA7001BB34F /* DrawingGroupView.swift in Sources */,
 				92FB755829EFBCD6007B40CB /* LabelView.swift in Sources */,
 				92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */,
+				920CC8E229F01F54001BB34F /* AngulargradientView.swift in Sources */,
+				920CC8EB29F02A8B001BB34F /* CompositionView.swift in Sources */,
 				9260A6A329EC7FC500B31971 /* PhotoModel.swift in Sources */,
 				92D8879329EFE033003A6070 /* CircularView.swift in Sources */,
 				92D8878929EFD666003A6070 /* TextView.swift in Sources */,

@@ -13,7 +13,7 @@ struct TextSUIApp: App {
 
     var body: some Scene {
         WindowGroup {
-            TextEditorView()
+            DrawingGroupView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
