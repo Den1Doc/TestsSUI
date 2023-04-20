@@ -42,6 +42,9 @@
 		92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */; };
 		92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */; };
 		92B41EFD29D716B9004DFAB9 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EFC29D716B9004DFAB9 /* EscapingBootcamp.swift */; };
+		92BC2ECF29F12EBA00775534 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ECE29F12EBA00775534 /* StateView.swift */; };
+		92BC2ED129F1345700775534 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ED029F1345700775534 /* BindingView.swift */; };
+		92BC2ED329F13BDF00775534 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ED229F13BDF00775534 /* ObservableObjectView.swift */; };
 		92D8878729EFD4A3003A6070 /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8878629EFD4A3003A6070 /* TabViewView.swift */; };
 		92D8878929EFD666003A6070 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8878829EFD666003A6070 /* TextView.swift */; };
 		92D8878B29EFD7A9003A6070 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8878A29EFD7A9003A6070 /* TextEditorView.swift */; };
@@ -129,6 +132,9 @@
 		92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturessPromisesBootcamp.swift; sourceTree = "<group>"; };
 		92B41EFC29D716B9004DFAB9 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
+		92BC2ECE29F12EBA00775534 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		92BC2ED029F1345700775534 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		92BC2ED229F13BDF00775534 /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
 		92D8878629EFD4A3003A6070 /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
 		92D8878829EFD666003A6070 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		92D8878A29EFD7A9003A6070 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
@@ -311,6 +317,7 @@
 		927F327629D5A4F800984617 /* TestsSUI */ = {
 			isa = PBXGroup;
 			children = (
+				92BC2ECD29F12E9300775534 /* DataSwiftSuiMasterBook */,
 				92FB754C29EFB0AA007B40CB /* ViewBookSuiMaster */,
 				92FAC01029D5B82B005D6E8D /* View */,
 				92FAC01129D5B836005D6E8D /* New Group */,
@@ -352,6 +359,16 @@
 				92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */,
 			);
 			path = View2;
+			sourceTree = "<group>";
+		};
+		92BC2ECD29F12E9300775534 /* DataSwiftSuiMasterBook */ = {
+			isa = PBXGroup;
+			children = (
+				92BC2ECE29F12EBA00775534 /* StateView.swift */,
+				92BC2ED029F1345700775534 /* BindingView.swift */,
+				92BC2ED229F13BDF00775534 /* ObservableObjectView.swift */,
+			);
+			path = DataSwiftSuiMasterBook;
 			sourceTree = "<group>";
 		};
 		92D8878E29EFDE5D003A6070 /* One */ = {
@@ -578,6 +595,7 @@
 				92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */,
 				928B382E29E1DE9C00473B8D /* ArraysBootcamp.swift in Sources */,
 				92EFAE1129E0ADD200886832 /* HapticsBootcamp.swift in Sources */,
+				92BC2ED129F1345700775534 /* BindingView.swift in Sources */,
 				92DB586C29EE6117007A0593 /* NSCacheBootcamp.swift in Sources */,
 				9260A6A529EC805B00B31971 /* DowloadingImagesViewModel.swift in Sources */,
 				928B385229E29A8100473B8D /* ThreadsBootcamp.swift in Sources */,
@@ -612,6 +630,7 @@
 				92D8879129EFDE91003A6070 /* CanvasView.swift in Sources */,
 				920CC8DF29F01E84001BB34F /* InsetView.swift in Sources */,
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
+				92BC2ECF29F12EBA00775534 /* StateView.swift in Sources */,
 				92FB755E29EFBFF6007B40CB /* MenuView.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
 				92D8878B29EFD7A9003A6070 /* TextEditorView.swift in Sources */,
@@ -628,6 +647,7 @@
 				920CC8E229F01F54001BB34F /* AngulargradientView.swift in Sources */,
 				920CC8EB29F02A8B001BB34F /* CompositionView.swift in Sources */,
 				9260A6A329EC7FC500B31971 /* PhotoModel.swift in Sources */,
+				92BC2ED329F13BDF00775534 /* ObservableObjectView.swift in Sources */,
 				92D8879329EFE033003A6070 /* CircularView.swift in Sources */,
 				92D8878929EFD666003A6070 /* TextView.swift in Sources */,
 				927F327829D5A4F800984617 /* TextSUIApp.swift in Sources */,
