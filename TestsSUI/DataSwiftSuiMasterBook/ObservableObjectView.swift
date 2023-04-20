@@ -1,15 +1,26 @@
-//
-//  ObservableObjectView.swift
-//  TestsSUI
-//
-//  Created by Денис Мишин on 20.04.2023.
-//
-
 import SwiftUI
 
+class CarInfo: ObservableObject {
+    @Published var bmw = ""
+    @Published var shoda = ""
+}
+
 struct ObservableObjectView: View {
+    @StateObject var carInfo = CarInfo()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+            GroupBox(label: Text("Cars")) {
+                TextField("car bmw", text: $carInfo.bmw)
+                    .textFieldStyle(.roundedBorder)
+                TextField("car shoda", text: $carInfo.shoda)
+                    .textFieldStyle(.roundedBorder)
+            }
+            .padding()
+            
+        
+        
+        
     }
 }
 
