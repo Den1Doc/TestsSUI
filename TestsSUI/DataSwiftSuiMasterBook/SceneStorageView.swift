@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct SceneStorageView: View {
+    @SceneStorage("text") private var text = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        TextField("Hello", text: $text)
+            .padding()
+            .frame(height: 55)
+            .frame(maxWidth: .infinity)
+            .background(Color.red.cornerRadius(10))
+            .padding()
+        
     }
 }
 

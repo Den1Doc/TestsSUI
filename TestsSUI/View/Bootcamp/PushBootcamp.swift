@@ -12,7 +12,6 @@ import CoreLocation
 class PushManager {
     static let instance = PushManager()
     
-    
     func requestAuthorization() {
         let options: UNAuthorizationOptions = [.alert, .sound, .badge]
         UNUserNotificationCenter.current().requestAuthorization(options: options) { success, error in
