@@ -1,13 +1,14 @@
 # TestsSUI
 
-Всем привет, мои юные программисты 😁
+Hello everyone, my young programmers 😁
 
-Собираю новые технологии по SwiftUI в одну коллекцию.
+I collect new technologies by SwiftUI into one collection.
 
-Планы: 
-1) Новые технологии от Apple и их разбором
-2) Async / Await с несколькими примерами 
-3) Новые библиотеки
-4) Крутые анимации с различными переходами...
+Plans:
 
-Спасибо, что сохраняешь мой репозиторий 🥰
+1) New technologies from Apple and their analysis
+2) Async / Await with a few examples
+3) New libraries
+4) Cool animations with different transitions...
+
+Thank you for saving my repository 🥰
