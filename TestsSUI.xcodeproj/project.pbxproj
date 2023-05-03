@@ -54,6 +54,15 @@
 		92BC2ECF29F12EBA00775534 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ECE29F12EBA00775534 /* StateView.swift */; };
 		92BC2ED129F1345700775534 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ED029F1345700775534 /* BindingView.swift */; };
 		92BC2ED329F13BDF00775534 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ED229F13BDF00775534 /* ObservableObjectView.swift */; };
+		92C9D3B12A02989300CB6D3A /* NavStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3B02A02989300CB6D3A /* NavStack.swift */; };
+		92C9D3B32A029CA200CB6D3A /* ButtonSheestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3B22A029CA200CB6D3A /* ButtonSheestView.swift */; };
+		92C9D3B52A029DEF00CB6D3A /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3B42A029DEF00CB6D3A /* GridView.swift */; };
+		92C9D3B72A029EEA00CB6D3A /* OntTapGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3B62A029EEA00CB6D3A /* OntTapGestureView.swift */; };
+		92C9D3B92A029FBA00CB6D3A /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3B82A029FBA00CB6D3A /* LinksView.swift */; };
+		92C9D3BB2A02A10A00CB6D3A /* MultiDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3BA2A02A10A00CB6D3A /* MultiDatePickerView.swift */; };
+		92C9D3BD2A02A23C00CB6D3A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3BC2A02A23C00CB6D3A /* SearchView.swift */; };
+		92C9D3BF2A02A76F00CB6D3A /* RectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3BE2A02A76F00CB6D3A /* RectangleView.swift */; };
+		92C9D3C12A02A86400CB6D3A /* AnyLayotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C9D3C02A02A86400CB6D3A /* AnyLayotView.swift */; };
 		92D8878729EFD4A3003A6070 /* TabViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8878629EFD4A3003A6070 /* TabViewView.swift */; };
 		92D8878929EFD666003A6070 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8878829EFD666003A6070 /* TextView.swift */; };
 		92D8878B29EFD7A9003A6070 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D8878A29EFD7A9003A6070 /* TextEditorView.swift */; };
@@ -153,6 +162,15 @@
 		92BC2ECE29F12EBA00775534 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		92BC2ED029F1345700775534 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		92BC2ED229F13BDF00775534 /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
+		92C9D3B02A02989300CB6D3A /* NavStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavStack.swift; sourceTree = "<group>"; };
+		92C9D3B22A029CA200CB6D3A /* ButtonSheestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSheestView.swift; sourceTree = "<group>"; };
+		92C9D3B42A029DEF00CB6D3A /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		92C9D3B62A029EEA00CB6D3A /* OntTapGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OntTapGestureView.swift; sourceTree = "<group>"; };
+		92C9D3B82A029FBA00CB6D3A /* LinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
+		92C9D3BA2A02A10A00CB6D3A /* MultiDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDatePickerView.swift; sourceTree = "<group>"; };
+		92C9D3BC2A02A23C00CB6D3A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		92C9D3BE2A02A76F00CB6D3A /* RectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleView.swift; sourceTree = "<group>"; };
+		92C9D3C02A02A86400CB6D3A /* AnyLayotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayotView.swift; sourceTree = "<group>"; };
 		92D8878629EFD4A3003A6070 /* TabViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewView.swift; sourceTree = "<group>"; };
 		92D8878829EFD666003A6070 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		92D8878A29EFD7A9003A6070 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
@@ -334,10 +352,11 @@
 		927F327629D5A4F800984617 /* TestsSUI */ = {
 			isa = PBXGroup;
 			children = (
+				92C9D3AF2A02980A00CB6D3A /* IOS16 */,
+				92FAC01029D5B82B005D6E8D /* Bootcamp */,
 				929A454929F974890057126A /* Bootcamp2 */,
 				92BC2ECD29F12E9300775534 /* DataSwiftSuiMasterBook */,
 				92FB754C29EFB0AA007B40CB /* ViewBookSuiMaster */,
-				92FAC01029D5B82B005D6E8D /* Bootcamp */,
 				92FAC01129D5B836005D6E8D /* New Group */,
 				927F327D29D5A4FA00984617 /* Preview Content */,
 			);
@@ -404,6 +423,22 @@
 				92DC42A229F255CA0049471C /* EnvironmentObjectView.swift */,
 			);
 			path = DataSwiftSuiMasterBook;
+			sourceTree = "<group>";
+		};
+		92C9D3AF2A02980A00CB6D3A /* IOS16 */ = {
+			isa = PBXGroup;
+			children = (
+				92C9D3B02A02989300CB6D3A /* NavStack.swift */,
+				92C9D3B22A029CA200CB6D3A /* ButtonSheestView.swift */,
+				92C9D3B42A029DEF00CB6D3A /* GridView.swift */,
+				92C9D3B62A029EEA00CB6D3A /* OntTapGestureView.swift */,
+				92C9D3B82A029FBA00CB6D3A /* LinksView.swift */,
+				92C9D3BA2A02A10A00CB6D3A /* MultiDatePickerView.swift */,
+				92C9D3BC2A02A23C00CB6D3A /* SearchView.swift */,
+				92C9D3BE2A02A76F00CB6D3A /* RectangleView.swift */,
+				92C9D3C02A02A86400CB6D3A /* AnyLayotView.swift */,
+			);
+			path = IOS16;
 			sourceTree = "<group>";
 		};
 		92D8878E29EFDE5D003A6070 /* One */ = {
@@ -628,6 +663,7 @@
 			files = (
 				92EFAE1E29E1456500886832 /* DragGestureBootcamp.swift in Sources */,
 				92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */,
+				92C9D3B12A02989300CB6D3A /* NavStack.swift in Sources */,
 				929A455329F987A50057126A /* ToolBarView.swift in Sources */,
 				928B382E29E1DE9C00473B8D /* ArraysBootcamp.swift in Sources */,
 				92EFAE1129E0ADD200886832 /* HapticsBootcamp.swift in Sources */,
@@ -640,11 +676,13 @@
 				92EFAE2029E14AAA00886832 /* DragGestureBootcamp2.swift in Sources */,
 				92D8878D29EFDA1A003A6070 /* TextFieldView.swift in Sources */,
 				9260A6B129EC989D00B31971 /* PhotoModelFileManager.swift in Sources */,
+				92C9D3BF2A02A76F00CB6D3A /* RectangleView.swift in Sources */,
 				92B41EFD29D716B9004DFAB9 /* EscapingBootcamp.swift in Sources */,
 				928EBC0529F1753700E1FCB6 /* SceneStorageView.swift in Sources */,
 				9260A6AD29EC8DC200B31971 /* ImageLoadingViewModel.swift in Sources */,
 				92D8878729EFD4A3003A6070 /* TabViewView.swift in Sources */,
 				927F328129D5A4FA00984617 /* Persistence.swift in Sources */,
+				92C9D3BD2A02A23C00CB6D3A /* SearchView.swift in Sources */,
 				9260A69629EC3A8000B31971 /* FileManagerBootcamp.swift in Sources */,
 				92EFAE0A29E0A8FE00886832 /* SoundsBootcamp.swift in Sources */,
 				929A454F29F981AE0057126A /* BadgeView.swift in Sources */,
@@ -657,18 +695,23 @@
 				9260A6AB29EC8D3300B31971 /* DowloadingImageView.swift in Sources */,
 				929A454D29F97D7F0057126A /* AsyncImage.swift in Sources */,
 				920CC8F129F03277001BB34F /* SaturationView.swift in Sources */,
+				92C9D3BB2A02A10A00CB6D3A /* MultiDatePickerView.swift in Sources */,
 				92FB755429EFB74E007B40CB /* FormView.swift in Sources */,
 				920CC8E929F029FD001BB34F /* Brightness.swift in Sources */,
+				92C9D3B52A029DEF00CB6D3A /* GridView.swift in Sources */,
 				929A454B29F974BF0057126A /* URLView.swift in Sources */,
 				927F328429D5A4FA00984617 /* TextSUI.xcdatamodeld in Sources */,
 				9260A6AF29EC96DF00B31971 /* PhotoCacheManager.swift in Sources */,
 				9260A69929EC596E00B31971 /* SubscriberBootcamp.swift in Sources */,
 				929A455129F983080057126A /* OnSubmit.swift in Sources */,
+				92C9D3C12A02A86400CB6D3A /* AnyLayotView.swift in Sources */,
 				92EFAE1C29E13F6600886832 /* WeakSelfBootcamp.swift in Sources */,
 				92FB755029EFB30E007B40CB /* DatePickerView.swift in Sources */,
 				920CC8E729F0288B001BB34F /* SafeArenaView.swift in Sources */,
 				928EBBFF29F15CA900E1FCB6 /* StateObjectView.swift in Sources */,
+				92C9D3B72A029EEA00CB6D3A /* OntTapGestureView.swift in Sources */,
 				92FAD2CD29DF4A3200B6CCDD /* HashableBootcamp.swift in Sources */,
+				92C9D3B32A029CA200CB6D3A /* ButtonSheestView.swift in Sources */,
 				92D8879129EFDE91003A6070 /* CanvasView.swift in Sources */,
 				920CC8DF29F01E84001BB34F /* InsetView.swift in Sources */,
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
@@ -684,6 +727,7 @@
 				92FB755A29EFBDAE007B40CB /* LinkView.swift in Sources */,
 				9260A6A729EC818200B31971 /* PhotoModelDataService.swift in Sources */,
 				920CC8EF29F0310C001BB34F /* HueRotationView.swift in Sources */,
+				92C9D3B92A029FBA00CB6D3A /* LinksView.swift in Sources */,
 				92FB755C29EFBEAE007B40CB /* ListView.swift in Sources */,
 				920CC8ED29F02CA7001BB34F /* DrawingGroupView.swift in Sources */,
 				92FB755829EFBCD6007B40CB /* LabelView.swift in Sources */,
@@ -781,7 +825,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -835,7 +879,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
