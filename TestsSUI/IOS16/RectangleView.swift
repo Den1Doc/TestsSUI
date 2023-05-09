@@ -1,10 +1,3 @@
-//
-//  RectangleView.swift
-//  TestsSUI
-//
-//  Created by Денис Мишин on 03.05.2023.
-//
-
 import SwiftUI
 
 struct RectangleView: View {

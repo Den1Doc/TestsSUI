@@ -79,6 +79,13 @@
 		92EFAE1C29E13F6600886832 /* WeakSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EFAE1B29E13F6600886832 /* WeakSelfBootcamp.swift */; };
 		92EFAE1E29E1456500886832 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EFAE1D29E1456500886832 /* DragGestureBootcamp.swift */; };
 		92EFAE2029E14AAA00886832 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EFAE1F29E14AAA00886832 /* DragGestureBootcamp2.swift */; };
+		92F250632A0A5E29000C99F7 /* Swiftui.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F250622A0A5E29000C99F7 /* Swiftui.swift */; };
+		92F250652A0A5E3C000C99F7 /* UnitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F250642A0A5E3C000C99F7 /* UnitViewModel.swift */; };
+		92F250672A0A5E4F000C99F7 /* NewMockDataservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F250662A0A5E4F000C99F7 /* NewMockDataservice.swift */; };
+		92F250692A0A5EA6000C99F7 /* UnitViewModel_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F250682A0A5EA6000C99F7 /* UnitViewModel_Test.swift */; };
+		92F2506B2A0A5EC1000C99F7 /* NewMockDataService_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2506A2A0A5EC1000C99F7 /* NewMockDataService_Tests.swift */; };
+		92F2506D2A0A5F12000C99F7 /* ContentViewOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2506C2A0A5F12000C99F7 /* ContentViewOne.swift */; };
+		92F2506F2A0A5F43000C99F7 /* UITestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2506E2A0A5F43000C99F7 /* UITestUITests.swift */; };
 		92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */; };
 		92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */; };
 		92FAC01729D5BCE9005D6E8D /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */; };
@@ -187,6 +194,13 @@
 		92EFAE1B29E13F6600886832 /* WeakSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfBootcamp.swift; sourceTree = "<group>"; };
 		92EFAE1D29E1456500886832 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		92EFAE1F29E14AAA00886832 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
+		92F250622A0A5E29000C99F7 /* Swiftui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiftui.swift; sourceTree = "<group>"; };
+		92F250642A0A5E3C000C99F7 /* UnitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitViewModel.swift; sourceTree = "<group>"; };
+		92F250662A0A5E4F000C99F7 /* NewMockDataservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataservice.swift; sourceTree = "<group>"; };
+		92F250682A0A5EA6000C99F7 /* UnitViewModel_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitViewModel_Test.swift; sourceTree = "<group>"; };
+		92F2506A2A0A5EC1000C99F7 /* NewMockDataService_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMockDataService_Tests.swift; sourceTree = "<group>"; };
+		92F2506C2A0A5F12000C99F7 /* ContentViewOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewOne.swift; sourceTree = "<group>"; };
+		92F2506E2A0A5F43000C99F7 /* UITestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestUITests.swift; sourceTree = "<group>"; };
 		92FAC01229D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01429D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		92FAC01629D5BCE9005D6E8D /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -352,6 +366,8 @@
 		927F327629D5A4F800984617 /* TestsSUI */ = {
 			isa = PBXGroup;
 			children = (
+				92F250602A0A5DE0000C99F7 /* UITest */,
+				92F250612A0A5DF6000C99F7 /* UnitTest */,
 				92C9D3AF2A02980A00CB6D3A /* IOS16 */,
 				92FAC01029D5B82B005D6E8D /* Bootcamp */,
 				929A454929F974890057126A /* Bootcamp2 */,
@@ -488,6 +504,27 @@
 				92EFAE1F29E14AAA00886832 /* DragGestureBootcamp2.swift */,
 			);
 			path = DragGesture;
+			sourceTree = "<group>";
+		};
+		92F250602A0A5DE0000C99F7 /* UITest */ = {
+			isa = PBXGroup;
+			children = (
+				92F2506C2A0A5F12000C99F7 /* ContentViewOne.swift */,
+				92F2506E2A0A5F43000C99F7 /* UITestUITests.swift */,
+			);
+			path = UITest;
+			sourceTree = "<group>";
+		};
+		92F250612A0A5DF6000C99F7 /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				92F250622A0A5E29000C99F7 /* Swiftui.swift */,
+				92F250642A0A5E3C000C99F7 /* UnitViewModel.swift */,
+				92F250662A0A5E4F000C99F7 /* NewMockDataservice.swift */,
+				92F250682A0A5EA6000C99F7 /* UnitViewModel_Test.swift */,
+				92F2506A2A0A5EC1000C99F7 /* NewMockDataService_Tests.swift */,
+			);
+			path = UnitTest;
 			sourceTree = "<group>";
 		};
 		92FAC01029D5B82B005D6E8D /* Bootcamp */ = {
@@ -687,6 +724,7 @@
 				92EFAE0A29E0A8FE00886832 /* SoundsBootcamp.swift in Sources */,
 				929A454F29F981AE0057126A /* BadgeView.swift in Sources */,
 				92FB754E29EFB0E9007B40CB /* ControlGroupView.swift in Sources */,
+				92F250652A0A5E3C000C99F7 /* UnitViewModel.swift in Sources */,
 				92B41EB729D6B038004DFAB9 /* DependecyInjecBootcamp.swift in Sources */,
 				92FB755229EFB5CF007B40CB /* DisclosureGroupView.swift in Sources */,
 				92EFAE1A29E13D5900886832 /* TypeliastBootcamp.swift in Sources */,
@@ -698,6 +736,7 @@
 				92C9D3BB2A02A10A00CB6D3A /* MultiDatePickerView.swift in Sources */,
 				92FB755429EFB74E007B40CB /* FormView.swift in Sources */,
 				920CC8E929F029FD001BB34F /* Brightness.swift in Sources */,
+				92F250632A0A5E29000C99F7 /* Swiftui.swift in Sources */,
 				92C9D3B52A029DEF00CB6D3A /* GridView.swift in Sources */,
 				929A454B29F974BF0057126A /* URLView.swift in Sources */,
 				927F328429D5A4FA00984617 /* TextSUI.xcdatamodeld in Sources */,
@@ -710,6 +749,7 @@
 				920CC8E729F0288B001BB34F /* SafeArenaView.swift in Sources */,
 				928EBBFF29F15CA900E1FCB6 /* StateObjectView.swift in Sources */,
 				92C9D3B72A029EEA00CB6D3A /* OntTapGestureView.swift in Sources */,
+				92F2506D2A0A5F12000C99F7 /* ContentViewOne.swift in Sources */,
 				92FAD2CD29DF4A3200B6CCDD /* HashableBootcamp.swift in Sources */,
 				92C9D3B32A029CA200CB6D3A /* ButtonSheestView.swift in Sources */,
 				92D8879129EFDE91003A6070 /* CanvasView.swift in Sources */,
@@ -717,6 +757,7 @@
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
 				92BC2ECF29F12EBA00775534 /* StateView.swift in Sources */,
 				92FB755E29EFBFF6007B40CB /* MenuView.swift in Sources */,
+				92F250672A0A5E4F000C99F7 /* NewMockDataservice.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
 				92D8878B29EFD7A9003A6070 /* TextEditorView.swift in Sources */,
 				92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */,
@@ -746,7 +787,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F250692A0A5EA6000C99F7 /* UnitViewModel_Test.swift in Sources */,
+				92F2506F2A0A5F43000C99F7 /* UITestUITests.swift in Sources */,
 				927F328E29D5A4FA00984617 /* TextSUITests.swift in Sources */,
+				92F2506B2A0A5EC1000C99F7 /* NewMockDataService_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
