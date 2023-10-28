@@ -8,16 +8,13 @@
 import SwiftUI
 
 struct DragGestureBootcamp: View {
-    
     @State var offest: CGSize = .zero
-    
     var body: some View {
         
         
         VStack {
             Text("\(offest.width)")
             Spacer()
-            
             
             RoundedRectangle(cornerRadius: 20)
                 .frame(width: 300, height: 500)
@@ -35,7 +32,6 @@ struct DragGestureBootcamp: View {
                                 offest = .zero
                             }
                         })
-            
         }
     }
     

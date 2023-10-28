@@ -5,15 +5,6 @@ struct NameData {
     let lastName = "Olay"
 }
 
-//class NameData{
-//    var firstName = ""
-//    var lastName = ""
-//    init(firstN: String, lastN: String) {
-//        firstName = firstN
-//        lastName = lastN
-//    }
-//}
-
 struct StateView: View {
     @State private var nameData = NameData()
     @State private var name: String = "Den"

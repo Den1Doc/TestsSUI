@@ -2,7 +2,7 @@ import SwiftUI
 import Combine
 
 protocol NewDataServiceProlocol {
-    func downloadItemEscaping(complited: @escaping (_ itemss: [String]) -> ())
+    func downloadItemEscaping(complited: @escaping (_ itemss: [String]) -> Void)
     func donwloadItemsCombine() -> AnyPublisher<[String], Error>
 }
 
@@ -14,7 +14,7 @@ class NewMockDataService: NewDataServiceProlocol {
         self.items = items ?? ["One", "Two", "Three"]
     }
     
-    func downloadItemEscaping(complited: @escaping (_ itemss: [String]) -> ()) {
+    func downloadItemEscaping(complited: @escaping (_ itemss: [String]) -> Void) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             complited(self.items)
         }

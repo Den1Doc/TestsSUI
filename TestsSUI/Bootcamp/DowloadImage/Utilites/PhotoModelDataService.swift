@@ -19,7 +19,7 @@ class PhotoModelDataService {
     }
     
     func dowloadData() {
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/photos") else {return}
+        guard let url = URL(string: "http://api.forismatic.com/api/1.0/") else {return}
         
         URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .background))
@@ -40,7 +40,7 @@ class PhotoModelDataService {
     }
     private func handleOutput(output: URLSession.DataTaskPublisher.Output) throws -> Data {
         guard let response = output.response as? HTTPURLResponse,
-              response.statusCode >= 200 && response.statusCode < 300 else {throw URLError(.badServerResponse)
+              response.statusCode >= 200 && response.statusCode < 300 else { throw URLError(.badServerResponse)
         }
         return output.data
     }

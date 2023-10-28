@@ -35,10 +35,6 @@ struct DrawingGroupView: View {
                 }
                 .drawingGroup()
             }
-            
-            
-            
-            
         }
     }
 }
@@ -46,6 +42,12 @@ struct DrawingGroupView: View {
 func randomCoordinate(max: CGFloat) -> CGFloat {
     return CGFloat.random(in: 0...max)
 }
+
+
+
+
+
+
 
 struct DrawingGroupView_Previews: PreviewProvider {
     static var previews: some View {

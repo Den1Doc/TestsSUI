@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ToolBarView: View {
-    @State private var isOn = false
     var body: some View {
         
-        NavigationView {
+        NavigationStack {
             Text("Hello, World!")
                 .navigationTitle("Home")
                 .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
+                    ToolbarItem(id: "", placement: ToolbarItemPlacement.status, showsByDefault: false) {
+//                    ToolbarItem(placement: .primaryAction) {
                         ControlGroup {
                             Button {
                                 
@@ -28,15 +28,17 @@ struct ToolBarView: View {
                             } label: {
                                 Image(systemName: "gear")
                             }
-
                         }
                     }
                 }
                 .controlGroupStyle(.navigation)
         }
-       
     }
 }
+
+
+
+
 
 struct ToolBarView_Previews: PreviewProvider {
     static var previews: some View {

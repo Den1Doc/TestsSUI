@@ -7,12 +7,9 @@ final class UITestUITests: XCTestCase {
     override func setUpWithError() throws {
         continueAfterFailure = false
         app.launch()
-
-        
     }
 
-    override func tearDownWithError() throws {
-    }
+    override func tearDownWithError() throws { }
 
     
     func test_UITestingBootcampView_signUpButton_shouldNotSignIn() {
@@ -22,7 +19,7 @@ final class UITestUITests: XCTestCase {
         let returnButton = app.buttons["Return"]
         returnButton.tap()
     
-        let signUpButton =  app.buttons["SingUpButton"]
+        le = app.buttons["SingUpButton"]
         signUpButton.tap()
         
         let navBar = app.navigationBars["Welcom!"]
@@ -41,7 +38,7 @@ final class UITestUITests: XCTestCase {
         let returnButton = app.buttons["Return"]
         returnButton.tap()
     
-        let signUpButton =  app.buttons["SingUpButton"]
+        let signUpButton = app.buttons["SingUpButton"]
         signUpButton.tap()
         
         let navBar = app.navigationBars["Welcom!"]
