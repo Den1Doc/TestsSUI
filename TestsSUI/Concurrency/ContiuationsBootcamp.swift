@@ -44,13 +44,12 @@ class ContiuationsBootcampNetworkManager {
 }
 
 class ContiuationsBootcampViewModel : ObservableObject {
+  
     @Published var image: UIImage? = nil
     let networkManager = ContiuationsBootcampNetworkManager()
     
     func getImage() async {
         guard let url = URL(string: "https://fastly.picsum.photos/id/916/200/200.jpg?hmac=hEUrLG-ayFdIoyHKUwazT8SMEsVxWH9xGz4tx-e0cN0") else { return }
-        
-        
         do {
             let data = try await networkManager.getData(url: url)
             if let image = UIImage(data: data) {
@@ -86,7 +85,7 @@ struct ContiuationsBootcamp: View {
         }
         .task {
 //            await vm.getImage()
-            await vm.getHeartImage()
+             vm.getHeartImage()
         }
         
     }

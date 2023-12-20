@@ -16,6 +16,8 @@
 		920CC8ED29F02CA7001BB34F /* DrawingGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8EC29F02CA7001BB34F /* DrawingGroupView.swift */; };
 		920CC8EF29F0310C001BB34F /* HueRotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8EE29F0310C001BB34F /* HueRotationView.swift */; };
 		920CC8F129F03277001BB34F /* SaturationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CC8F029F03277001BB34F /* SaturationView.swift */; };
+		923B97822B32FD5500BD268A /* PhotoPickerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B97812B32FD5500BD268A /* PhotoPickerBootcamp.swift */; };
+		923B97842B3304AB00BD268A /* AsyncStreamBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923B97832B3304AB00BD268A /* AsyncStreamBootcamp.swift */; };
 		9260A69629EC3A8000B31971 /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260A69529EC3A8000B31971 /* FileManagerBootcamp.swift */; };
 		9260A69929EC596E00B31971 /* SubscriberBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260A69829EC596E00B31971 /* SubscriberBootcamp.swift */; };
 		9260A6A129EC7EA700B31971 /* DowloadingImagesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9260A6A029EC7EA700B31971 /* DowloadingImagesBootcamp.swift */; };
@@ -62,6 +64,12 @@
 		92BC2ECF29F12EBA00775534 /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ECE29F12EBA00775534 /* StateView.swift */; };
 		92BC2ED129F1345700775534 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ED029F1345700775534 /* BindingView.swift */; };
 		92BC2ED329F13BDF00775534 /* ObservableObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC2ED229F13BDF00775534 /* ObservableObjectView.swift */; };
+		92BC65822B2F443100EF895D /* GlobalActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC65812B2F443100EF895D /* GlobalActorBootcamp.swift */; };
+		92BC65842B2F4BE600EF895D /* SendableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC65832B2F4BE600EF895D /* SendableBootcamp.swift */; };
+		92BC65862B2F523C00EF895D /* AsyncPublisherBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC65852B2F523C00EF895D /* AsyncPublisherBootcamp.swift */; };
+		92BC65882B2F5A9900EF895D /* StrongSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC65872B2F5A9900EF895D /* StrongSelfBootcamp.swift */; };
+		92BC658A2B2F626000EF895D /* MVVMBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC65892B2F626000EF895D /* MVVMBootcamp.swift */; };
+		92BC658C2B2F66B200EF895D /* RefreshableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BC658B2B2F66B200EF895D /* RefreshableBootcamp.swift */; };
 		92BF5F672AD9B640002852D7 /* AccessibilityColorsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF5F662AD9B640002852D7 /* AccessibilityColorsBootcamp.swift */; };
 		92BF5F692AD9B744002852D7 /* AccessibilityVoiceOverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF5F682AD9B744002852D7 /* AccessibilityVoiceOverBootcamp.swift */; };
 		92BF5F6B2AD9C10C002852D7 /* TimelineViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF5F6A2AD9C10C002852D7 /* TimelineViewBootcamp.swift */; };
@@ -140,6 +148,8 @@
 		920CC8EC29F02CA7001BB34F /* DrawingGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingGroupView.swift; sourceTree = "<group>"; };
 		920CC8EE29F0310C001BB34F /* HueRotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueRotationView.swift; sourceTree = "<group>"; };
 		920CC8F029F03277001BB34F /* SaturationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturationView.swift; sourceTree = "<group>"; };
+		923B97812B32FD5500BD268A /* PhotoPickerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerBootcamp.swift; sourceTree = "<group>"; };
+		923B97832B3304AB00BD268A /* AsyncStreamBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncStreamBootcamp.swift; sourceTree = "<group>"; };
 		9260A69529EC3A8000B31971 /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		9260A69829EC596E00B31971 /* SubscriberBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriberBootcamp.swift; sourceTree = "<group>"; };
 		9260A6A029EC7EA700B31971 /* DowloadingImagesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DowloadingImagesBootcamp.swift; sourceTree = "<group>"; };
@@ -189,6 +199,12 @@
 		92BC2ECE29F12EBA00775534 /* StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
 		92BC2ED029F1345700775534 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		92BC2ED229F13BDF00775534 /* ObservableObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectView.swift; sourceTree = "<group>"; };
+		92BC65812B2F443100EF895D /* GlobalActorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorBootcamp.swift; sourceTree = "<group>"; };
+		92BC65832B2F4BE600EF895D /* SendableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableBootcamp.swift; sourceTree = "<group>"; };
+		92BC65852B2F523C00EF895D /* AsyncPublisherBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherBootcamp.swift; sourceTree = "<group>"; };
+		92BC65872B2F5A9900EF895D /* StrongSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongSelfBootcamp.swift; sourceTree = "<group>"; };
+		92BC65892B2F626000EF895D /* MVVMBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBootcamp.swift; sourceTree = "<group>"; };
+		92BC658B2B2F66B200EF895D /* RefreshableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableBootcamp.swift; sourceTree = "<group>"; };
 		92BF5F662AD9B640002852D7 /* AccessibilityColorsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColorsBootcamp.swift; sourceTree = "<group>"; };
 		92BF5F682AD9B744002852D7 /* AccessibilityVoiceOverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityVoiceOverBootcamp.swift; sourceTree = "<group>"; };
 		92BF5F6A2AD9C10C002852D7 /* TimelineViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewBootcamp.swift; sourceTree = "<group>"; };
@@ -480,6 +496,14 @@
 				92BA67372AED7E36000DC508 /* TaskGroupBootcamp.swift */,
 				92BA67392AED84EE000DC508 /* ContiuationsBootcamp.swift */,
 				92BA673B2AED97AC000DC508 /* ActorsBootcamp.swift */,
+				92BC65812B2F443100EF895D /* GlobalActorBootcamp.swift */,
+				92BC65832B2F4BE600EF895D /* SendableBootcamp.swift */,
+				92BC65852B2F523C00EF895D /* AsyncPublisherBootcamp.swift */,
+				92BC65872B2F5A9900EF895D /* StrongSelfBootcamp.swift */,
+				92BC65892B2F626000EF895D /* MVVMBootcamp.swift */,
+				92BC658B2B2F66B200EF895D /* RefreshableBootcamp.swift */,
+				923B97812B32FD5500BD268A /* PhotoPickerBootcamp.swift */,
+				923B97832B3304AB00BD268A /* AsyncStreamBootcamp.swift */,
 			);
 			path = Concurrency;
 			sourceTree = "<group>";
@@ -743,10 +767,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				92EFAE1E29E1456500886832 /* DragGestureBootcamp.swift in Sources */,
+				923B97842B3304AB00BD268A /* AsyncStreamBootcamp.swift in Sources */,
 				92FAC01529D5BAF5005D6E8D /* MagnificationGestureBootcamp.swift in Sources */,
 				92C9D3B12A02989300CB6D3A /* NavStack.swift in Sources */,
 				929A455329F987A50057126A /* ToolBarView.swift in Sources */,
 				92BF5F6B2AD9C10C002852D7 /* TimelineViewBootcamp.swift in Sources */,
+				923B97822B32FD5500BD268A /* PhotoPickerBootcamp.swift in Sources */,
 				928B382E29E1DE9C00473B8D /* ArraysBootcamp.swift in Sources */,
 				92EFAE1129E0ADD200886832 /* HapticsBootcamp.swift in Sources */,
 				92BC2ED129F1345700775534 /* BindingView.swift in Sources */,
@@ -766,9 +792,11 @@
 				9260A6AD29EC8DC200B31971 /* ImageLoadingViewModel.swift in Sources */,
 				92D8878729EFD4A3003A6070 /* TabViewView.swift in Sources */,
 				927F328129D5A4FA00984617 /* Persistence.swift in Sources */,
+				92BC65862B2F523C00EF895D /* AsyncPublisherBootcamp.swift in Sources */,
 				92BA673C2AED97AC000DC508 /* ActorsBootcamp.swift in Sources */,
 				92C9D3BD2A02A23C00CB6D3A /* SearchView.swift in Sources */,
 				9260A69629EC3A8000B31971 /* FileManagerBootcamp.swift in Sources */,
+				92BC658C2B2F66B200EF895D /* RefreshableBootcamp.swift in Sources */,
 				92EFAE0A29E0A8FE00886832 /* SoundsBootcamp.swift in Sources */,
 				929A454F29F981AE0057126A /* BadgeView.swift in Sources */,
 				92FB754E29EFB0E9007B40CB /* ControlGroupView.swift in Sources */,
@@ -797,8 +825,10 @@
 				92C9D3C12A02A86400CB6D3A /* AnyLayotView.swift in Sources */,
 				92EFAE1C29E13F6600886832 /* WeakSelfBootcamp.swift in Sources */,
 				92FB755029EFB30E007B40CB /* DatePickerView.swift in Sources */,
+				92BC65822B2F443100EF895D /* GlobalActorBootcamp.swift in Sources */,
 				920CC8E729F0288B001BB34F /* SafeArenaView.swift in Sources */,
 				928EBBFF29F15CA900E1FCB6 /* StateObjectView.swift in Sources */,
+				92BC65882B2F5A9900EF895D /* StrongSelfBootcamp.swift in Sources */,
 				92C9D3B72A029EEA00CB6D3A /* OntTapGestureView.swift in Sources */,
 				92F2506D2A0A5F12000C99F7 /* ContentViewOne.swift in Sources */,
 				92FAD2CD29DF4A3200B6CCDD /* HashableBootcamp.swift in Sources */,
@@ -809,11 +839,13 @@
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
 				92BC2ECF29F12EBA00775534 /* StateView.swift in Sources */,
 				92FB755E29EFBFF6007B40CB /* MenuView.swift in Sources */,
+				92BC65842B2F4BE600EF895D /* SendableBootcamp.swift in Sources */,
 				92F250672A0A5E4F000C99F7 /* NewMockDataservice.swift in Sources */,
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
 				92D8878B29EFD7A9003A6070 /* TextEditorView.swift in Sources */,
 				92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */,
 				9260A6A129EC7EA700B31971 /* DowloadingImagesBootcamp.swift in Sources */,
+				92BC658A2B2F626000EF895D /* MVVMBootcamp.swift in Sources */,
 				92EFAE1329E0AFD000886832 /* PushBootcamp.swift in Sources */,
 				928EBC0329F16AA100E1FCB6 /* AppStorageView.swift in Sources */,
 				92DC42A329F255CA0049471C /* EnvironmentObjectView.swift in Sources */,
