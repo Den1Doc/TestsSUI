@@ -1,11 +1,8 @@
 import SwiftUI
 
 struct RectangleView: View {
+    let colors: [Color] = [.black, .brown, .cyan, .red, .purple]
     var body: some View {
-        
-//        Rectangle().fill(.blue.gradient)
-        
-        let colors: [Color] = [.black, .brown, .cyan, .red, .purple]
         VStack {
             ForEach(colors, id: \.self) { color in
                 Rectangle().fill(color.gradient)
