@@ -48,6 +48,19 @@
 		92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */; };
 		92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */; };
 		92B41EFD29D716B9004DFAB9 /* EscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B41EFC29D716B9004DFAB9 /* EscapingBootcamp.swift */; };
+		92B4F38A2CC7A9F90069832C /* AnimationTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F3892CC7A9F90069832C /* AnimationTabView.swift */; };
+		92B4F38C2CC7ABBF0069832C /* ColorMeshGradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F38B2CC7ABBF0069832C /* ColorMeshGradients.swift */; };
+		92B4F38E2CC7ABFF0069832C /* AnimationsSFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F38D2CC7ABFF0069832C /* AnimationsSFSymbols.swift */; };
+		92B4F3902CC7AC490069832C /* ControlScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F38F2CC7AC490069832C /* ControlScrollViews.swift */; };
+		92B4F3952CC7B0B90069832C /* ScrollTargetLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F3942CC7B0B90069832C /* ScrollTargetLayout.swift */; };
+		92B4F3972CC7B2D20069832C /* SymbolEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F3962CC7B2D20069832C /* SymbolEffect.swift */; };
+		92B4F3992CC7B31E0069832C /* ScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F3982CC7B31E0069832C /* ScaleEffect.swift */; };
+		92B4F39B2CC7B3B20069832C /* OnKeyPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F39A2CC7B3B20069832C /* OnKeyPress.swift */; };
+		92B4F39D2CC7B4360069832C /* ContentUnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F39C2CC7B4360069832C /* ContentUnavailableView.swift */; };
+		92B4F39F2CC7B53C0069832C /* ButtonRepeatBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F39E2CC7B53C0069832C /* ButtonRepeatBehavior.swift */; };
+		92B4F3A22CC7B6850069832C /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F3A12CC7B6850069832C /* CustomToggleStyle.swift */; };
+		92B4F3A42CC7B6B60069832C /* InfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F3A32CC7B6B60069832C /* InfoList.swift */; };
+		92B4F3A62CC7B6F90069832C /* PlaceholderCostom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4F3A52CC7B6F90069832C /* PlaceholderCostom.swift */; };
 		92BA67362AED7963000DC508 /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA67352AED7963000DC508 /* AsyncLetBootcamp.swift */; };
 		92BA67382AED7E36000DC508 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA67372AED7E36000DC508 /* TaskGroupBootcamp.swift */; };
 		92BA673A2AED84EE000DC508 /* ContiuationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BA67392AED84EE000DC508 /* ContiuationsBootcamp.swift */; };
@@ -177,6 +190,19 @@
 		92B41EB829D6B052004DFAB9 /* ProtocolsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootcamp.swift; sourceTree = "<group>"; };
 		92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturessPromisesBootcamp.swift; sourceTree = "<group>"; };
 		92B41EFC29D716B9004DFAB9 /* EscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingBootcamp.swift; sourceTree = "<group>"; };
+		92B4F3892CC7A9F90069832C /* AnimationTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabView.swift; sourceTree = "<group>"; };
+		92B4F38B2CC7ABBF0069832C /* ColorMeshGradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMeshGradients.swift; sourceTree = "<group>"; };
+		92B4F38D2CC7ABFF0069832C /* AnimationsSFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsSFSymbols.swift; sourceTree = "<group>"; };
+		92B4F38F2CC7AC490069832C /* ControlScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlScrollViews.swift; sourceTree = "<group>"; };
+		92B4F3942CC7B0B90069832C /* ScrollTargetLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTargetLayout.swift; sourceTree = "<group>"; };
+		92B4F3962CC7B2D20069832C /* SymbolEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolEffect.swift; sourceTree = "<group>"; };
+		92B4F3982CC7B31E0069832C /* ScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffect.swift; sourceTree = "<group>"; };
+		92B4F39A2CC7B3B20069832C /* OnKeyPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnKeyPress.swift; sourceTree = "<group>"; };
+		92B4F39C2CC7B4360069832C /* ContentUnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableView.swift; sourceTree = "<group>"; };
+		92B4F39E2CC7B53C0069832C /* ButtonRepeatBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRepeatBehavior.swift; sourceTree = "<group>"; };
+		92B4F3A12CC7B6850069832C /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
+		92B4F3A32CC7B6B60069832C /* InfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoList.swift; sourceTree = "<group>"; };
+		92B4F3A52CC7B6F90069832C /* PlaceholderCostom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderCostom.swift; sourceTree = "<group>"; };
 		92BA67352AED7963000DC508 /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
 		92BA67372AED7E36000DC508 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
 		92BA67392AED84EE000DC508 /* ContiuationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContiuationsBootcamp.swift; sourceTree = "<group>"; };
@@ -407,6 +433,9 @@
 			isa = PBXGroup;
 			children = (
 				927F327729D5A4F800984617 /* TextSUIApp.swift */,
+				92B4F3A02CC7B6550069832C /* CustomView */,
+				92B4F3882CC7A9C60069832C /* IOS18 */,
+				92B4F3932CC7AE5C0069832C /* IOS17 */,
 				92C9D3AF2A02980A00CB6D3A /* IOS16 */,
 				92F250602A0A5DE0000C99F7 /* UITest */,
 				92F250612A0A5DF6000C99F7 /* UnitTest */,
@@ -439,6 +468,40 @@
 				92B41EF629D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift */,
 			);
 			path = View2;
+			sourceTree = "<group>";
+		};
+		92B4F3882CC7A9C60069832C /* IOS18 */ = {
+			isa = PBXGroup;
+			children = (
+				92B4F3892CC7A9F90069832C /* AnimationTabView.swift */,
+				92B4F38B2CC7ABBF0069832C /* ColorMeshGradients.swift */,
+				92B4F38D2CC7ABFF0069832C /* AnimationsSFSymbols.swift */,
+				92B4F38F2CC7AC490069832C /* ControlScrollViews.swift */,
+			);
+			path = IOS18;
+			sourceTree = "<group>";
+		};
+		92B4F3932CC7AE5C0069832C /* IOS17 */ = {
+			isa = PBXGroup;
+			children = (
+				92B4F3942CC7B0B90069832C /* ScrollTargetLayout.swift */,
+				92B4F3962CC7B2D20069832C /* SymbolEffect.swift */,
+				92B4F3982CC7B31E0069832C /* ScaleEffect.swift */,
+				92B4F39A2CC7B3B20069832C /* OnKeyPress.swift */,
+				92B4F39C2CC7B4360069832C /* ContentUnavailableView.swift */,
+				92B4F39E2CC7B53C0069832C /* ButtonRepeatBehavior.swift */,
+			);
+			path = IOS17;
+			sourceTree = "<group>";
+		};
+		92B4F3A02CC7B6550069832C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				92B4F3A12CC7B6850069832C /* CustomToggleStyle.swift */,
+				92B4F3A32CC7B6B60069832C /* InfoList.swift */,
+				92B4F3A52CC7B6F90069832C /* PlaceholderCostom.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		92BC2ECD29F12E9300775534 /* DataSwiftSuiMasterBook */ = {
@@ -751,6 +814,8 @@
 				923B97822B32FD5500BD268A /* PhotoPickerBootcamp.swift in Sources */,
 				928B382E29E1DE9C00473B8D /* ArraysBootcamp.swift in Sources */,
 				92EFAE1129E0ADD200886832 /* HapticsBootcamp.swift in Sources */,
+				92B4F3972CC7B2D20069832C /* SymbolEffect.swift in Sources */,
+				92B4F3A62CC7B6F90069832C /* PlaceholderCostom.swift in Sources */,
 				92BC2ED129F1345700775534 /* BindingView.swift in Sources */,
 				9260A6A529EC805B00B31971 /* DowloadingImagesViewModel.swift in Sources */,
 				928B385229E29A8100473B8D /* ThreadsBootcamp.swift in Sources */,
@@ -758,6 +823,7 @@
 				928EBC0129F1678300E1FCB6 /* ObservedObjectView.swift in Sources */,
 				92FB755629EFBBE4007B40CB /* GroupBoxView.swift in Sources */,
 				92EFAE2029E14AAA00886832 /* DragGestureBootcamp2.swift in Sources */,
+				92B4F39D2CC7B4360069832C /* ContentUnavailableView.swift in Sources */,
 				92D8878D29EFDA1A003A6070 /* TextFieldView.swift in Sources */,
 				9260A6B129EC989D00B31971 /* PhotoModelFileManager.swift in Sources */,
 				92C9D3BF2A02A76F00CB6D3A /* RectangleView.swift in Sources */,
@@ -811,7 +877,9 @@
 				92D8879129EFDE91003A6070 /* CanvasView.swift in Sources */,
 				92BA673A2AED84EE000DC508 /* ContiuationsBootcamp.swift in Sources */,
 				920CC8DF29F01E84001BB34F /* InsetView.swift in Sources */,
+				92B4F38C2CC7ABBF0069832C /* ColorMeshGradients.swift in Sources */,
 				92B41EB929D6B052004DFAB9 /* ProtocolsBootcamp.swift in Sources */,
+				92B4F3952CC7B0B90069832C /* ScrollTargetLayout.swift in Sources */,
 				92BC2ECF29F12EBA00775534 /* StateView.swift in Sources */,
 				92FB755E29EFBFF6007B40CB /* MenuView.swift in Sources */,
 				92BC65842B2F4BE600EF895D /* SendableBootcamp.swift in Sources */,
@@ -819,19 +887,25 @@
 				92FAC01329D5B93E005D6E8D /* OnLongPressGestureBootcamp.swift in Sources */,
 				92D8878B29EFD7A9003A6070 /* TextEditorView.swift in Sources */,
 				92B41EF729D6EEEA004DFAB9 /* FuturessPromisesBootcamp.swift in Sources */,
+				92B4F3902CC7AC490069832C /* ControlScrollViews.swift in Sources */,
 				9260A6A129EC7EA700B31971 /* DowloadingImagesBootcamp.swift in Sources */,
 				92BC658A2B2F626000EF895D /* MVVMBootcamp.swift in Sources */,
 				92EFAE1329E0AFD000886832 /* PushBootcamp.swift in Sources */,
 				928EBC0329F16AA100E1FCB6 /* AppStorageView.swift in Sources */,
+				92B4F3A42CC7B6B60069832C /* InfoList.swift in Sources */,
+				92B4F3A22CC7B6850069832C /* CustomToggleStyle.swift in Sources */,
 				92DC42A329F255CA0049471C /* EnvironmentObjectView.swift in Sources */,
 				92FB755A29EFBDAE007B40CB /* LinkView.swift in Sources */,
+				92B4F3992CC7B31E0069832C /* ScaleEffect.swift in Sources */,
 				9260A6A729EC818200B31971 /* PhotoModelDataService.swift in Sources */,
+				92B4F39F2CC7B53C0069832C /* ButtonRepeatBehavior.swift in Sources */,
 				92CB5ED92C1F88A800C60C66 /* AnyLayoutExample2.swift in Sources */,
 				92BA67382AED7E36000DC508 /* TaskGroupBootcamp.swift in Sources */,
 				92BF5F672AD9B640002852D7 /* AccessibilityColorsBootcamp.swift in Sources */,
 				92AFB6162AEAF92C009E2439 /* DownloandImageAsyncBootcamp.swift in Sources */,
 				920CC8EF29F0310C001BB34F /* HueRotationView.swift in Sources */,
 				92C9D3B92A029FBA00CB6D3A /* LinksView.swift in Sources */,
+				92B4F39B2CC7B3B20069832C /* OnKeyPress.swift in Sources */,
 				92FB755C29EFBEAE007B40CB /* ListView.swift in Sources */,
 				920CC8ED29F02CA7001BB34F /* DrawingGroupView.swift in Sources */,
 				92FB755829EFBCD6007B40CB /* LabelView.swift in Sources */,
@@ -841,8 +915,10 @@
 				9260A6A329EC7FC500B31971 /* PhotoModel.swift in Sources */,
 				92CB5EDB2C1F892700C60C66 /* RequestReviewFromUserView.swift in Sources */,
 				92BC2ED329F13BDF00775534 /* ObservableObjectView.swift in Sources */,
+				92B4F38A2CC7A9F90069832C /* AnimationTabView.swift in Sources */,
 				92CB5EFD2C1F923700C60C66 /* KeyboardDismissView.swift in Sources */,
 				92D8879329EFE033003A6070 /* CircularView.swift in Sources */,
+				92B4F38E2CC7ABFF0069832C /* AnimationsSFSymbols.swift in Sources */,
 				92D8878929EFD666003A6070 /* TextView.swift in Sources */,
 				927F327829D5A4F800984617 /* TextSUIApp.swift in Sources */,
 			);
@@ -1012,7 +1088,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1043,7 +1119,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1113,7 +1189,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.denis.TestSUI;
@@ -1137,7 +1213,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.denis.TestSUI;
